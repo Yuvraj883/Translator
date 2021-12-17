@@ -58,3 +58,12 @@ button{
     margin-top: 2rem;
     
 }
+marquee{
+color:whitesmoke;
+width:60%;
+height: 3rem;
+margin:auto;
+display:block;
+font-size:larger;
+font-weight: bolder;
+}
