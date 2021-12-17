@@ -7,7 +7,7 @@ var outputText= document.querySelector("#output");
 
 function clickHandler(){
  var url = constructURL(inputText.value);
- fetch (url)
+ fetch (apiURL)
  .then(function responseHandler(response){return response.json()})
  .then (function logJson(json){outputText.innerText=json.contents.translated})
 };
