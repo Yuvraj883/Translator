@@ -17,4 +17,5 @@ return apiURL+"?"+"text="+txt;
 
 translateBtn.addEventListener("click", clickHandler);
 
+
 var apiURL = "https://api.funtranslations.com/translate/pirate.json";
